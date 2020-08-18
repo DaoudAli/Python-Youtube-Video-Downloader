@@ -1,10 +1,11 @@
+#A simple script to download 720p videos from YouTube. 
+#Uses Tkinter and Pytube3 packages
+
 from tkinter import * #Tkinter used to make GUI for application
 from pytube import YouTube #YouTube Package
 
 root = Tk()
 root.title('YouTube Video Downloader')
-#Default Window Size
-#root.geometry("400x300") 
 
 #Download Button Function
 def download_button():
